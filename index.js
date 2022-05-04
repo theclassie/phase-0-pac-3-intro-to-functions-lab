@@ -5,25 +5,20 @@ function whisper(string) {
   return string.toLowerCase();
 }
 function logShout(string) {
-  console.log("HELLO");
+  console.log(string.toUpperCase());
 }
 function logWhisper(string) {
-  console.log("hello");
+  console.log(string.toLowerCase());
 }
+
+//I'm just a little lost here. I'm not comprehending strings very well.
+
 function sayHiToHeadphonedRoommate(string) {
-  if (string.toLowerCase() === string) {
+  if (string === string.toLowerCase()) {
     return "I can't hear you!";
-  } else if (string.toUpperCase() === string) {
+  } else if (string === string.toUpperCase()) {
     return "YES INDEED!";
-  } else {
+  } else if (string === "Let's have dinner together!") {
     return "I would love to!";
   }
 }
-
-//if (string == lowercase) {
-// console.log("I can't hear you!");
-
-// need help with tech
-// I know I need an 'if' statement
-// however, I'm not sure how to format
-// function sayHiToHeadphonedRoomate(string) {
